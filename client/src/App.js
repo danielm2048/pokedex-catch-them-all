@@ -123,7 +123,7 @@ function App() {
 				{pokemonsFromType.length > 0 && (
 					<Pagination
 						perPage={typesPerPage}
-						total={currentTypes.length}
+						total={pokemonsFromType.length}
 						paginate={paginate}
 						curr={currentPage}
 					/>
